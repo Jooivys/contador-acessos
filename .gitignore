@@ -1,0 +1,31 @@
+# CDK
+cdk.out/
+cdk.context.json
+{lambda,lib}/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# AWS / credenciais (nunca versionar!)
+.aws-sam/
+*.pem
+.env
+.env.*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
