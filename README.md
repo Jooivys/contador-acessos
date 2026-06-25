@@ -27,6 +27,7 @@ contador-acessos/
 ```
 
 ## app.py — Entry point do CDK
+configure esse arquivo para ser feito o deploy a conta específica 
 
 ```python
 #!/usr/bin/env python3
